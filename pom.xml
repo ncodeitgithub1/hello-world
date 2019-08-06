@@ -1,27 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@ncodeitgithub1 
- The password you provided is weak and can be easily guessed. To increase your security, you must update your password. After September 1st, 2019 we will automatically reset your password. Change your password on the settings page.
-
-Read our documentation on safer password practices.
-
-0
-0 853 ncodeitgithub1/hello-world
-forked from betawins/hello-world
- Code  Pull requests 0  Projects 0  Wiki  Security  Insights  Settings
-hello-world/pom.xml
-@ncodeitgithub1 ncodeitgithub1 Update pom.xml
-a57799d now
-@ncodeitgithub1 @ValaxyTech
-240 lines (202 sloc)  6.12 KB
-    
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -261,15 +237,3 @@ a57799d now
 </distributionManagement>
 <!-- hello -->
 </project>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
