@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.scmgalaxy.mavensample</groupId>
   <artifactId>yoodle</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>5.0.0</version>
   <name>my-maven</name>
   <url>http://maven.apache.org</url>
@@ -42,13 +42,13 @@
 	<repository>
 		<id>tata</id>
 		<name>Internal Releases</name>
-		<url>http://192.168.12.151:8081/repository/hello-world-test/</url>
+		<url>http://192.168.12.151:8081/repository/ncodeit/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>tata</id>
 		<name>Internal Releases</name>
-		<url>http://192.168.12.151:8081/repository/hello-world-test/</url>
+		<url>http://192.168.12.151:8081/repository/ncodeit/</url>
 	</snapshotRepository>
 
 </distributionManagement>
