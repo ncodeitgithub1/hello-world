@@ -158,11 +158,22 @@
         </plugin>
       </plugins>
     </pluginManagement>
-  </build>
-
-  <dependencyManagement>
-
  
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-javadoc-plugin</artifactId>
+			<executions>
+				<execution>
+					<id>attach-javadocs</id>
+					<goals>
+						<goal>jar</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+	</build>
+	<dependencyManagement>
+    <dependencies>
       <dependency>
         <groupId>javax.servlet</groupId>
         <artifactId>servlet-api</artifactId>
@@ -202,24 +213,8 @@
         <version>1.8.5</version>
         <scope>test</scope>
       </dependency>
-    </dependencyManagement>
-  
-  <build>
-	<plugins>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-javadoc-plugin</artifactId>
-			<executions>
-				<execution>
-					<id>attach-javadocs</id>
-					<goals>
-						<goal>jar</goal>
-					</goals>
-				</execution>
-			</executions>
-		</plugin>
-	</plugins>
-	</build>
+    </dependencies>
+  </dependencyManagement>
   
 <distributionManagement>
 	<repository>
